@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Set base directory for resolving non-relative module names
+    "paths": {
+      "@/*": ["src/*"] // Map '@' to your 'src' directory
+    },
+    "allowJs": true // Allows JavaScript files to be compiled
+  },
+  "include": [
+    "src/**/*" // Include all JavaScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules directory
+  ]
+}
