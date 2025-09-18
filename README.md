@@ -1,7 +1,13 @@
-React + Vite CI/CD Pipeline with AWS
-A complete React + Vite application with automated CI/CD deployment pipeline using AWS CodePipeline, CodeBuild, and CodeDeploy.
-🚀 Live Demo
-Application URL: http://your-ec2-public-ip
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Application URL: http://ec2-44-252-94-190.us-west-2.compute.amazonaws.com
 📋 Table of Contents
 
 Overview
@@ -32,6 +38,9 @@ Key Features
 Developer → GitHub → CodePipeline → CodeBuild → CodeDeploy → EC2 → Users
                          ↓
                     S3 (Artifacts)
+
+                   <img width="2803" height="1401" alt="Multi cloud arch" src="https://github.com/user-attachments/assets/a2354c09-de27-4cfa-b816-d707c5ba37b9" />
+ 
 AWS Services Used
 
 CodePipeline: Orchestrates the entire CI/CD workflow
