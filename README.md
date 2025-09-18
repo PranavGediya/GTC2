@@ -39,7 +39,7 @@ Developer → GitHub → CodePipeline → CodeBuild → CodeDeploy → EC2 → U
                          ↓
                     S3 (Artifacts)
 
-                   <img width="2803" height="1401" alt="Multi cloud arch" src="https://github.com/user-attachments/assets/a2354c09-de27-4cfa-b816-d707c5ba37b9" />
+
  
 AWS Services Used
 
