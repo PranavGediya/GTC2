@@ -39,7 +39,7 @@ Developer → GitHub → CodePipeline → CodeBuild → CodeDeploy → EC2 → U
                          ↓
                     S3 (Artifacts)
 
-
+https://github.com/PranavGediya/GTC2/blob/main/Multi%20cloud%20arch.png
  
 AWS Services Used
 
