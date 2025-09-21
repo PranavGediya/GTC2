@@ -1,5 +1,7 @@
 # React + Vite + CICD Pipeline Build to Deployment
 
+CLoudFormation File of CICD Automation Deployment is Uploaded in This Repo.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
