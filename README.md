@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Application URL: http://ec2-44-252-94-190.us-west-2.compute.amazonaws.com
+Application URL: http://ec2-51-21-199-81.eu-north-1.compute.amazonaws.com
 📋 Table of Contents
 
 Overview
