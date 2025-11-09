@@ -187,7 +187,7 @@ export default function CreateTrip() {
             ))}
           </div>
         </div>
-        
+        <h6 className="font text-lg text-[#003c66]">Please Sign-in first before generate trip </h6>
         {/* Generate Button */}
         <Button
           disabled={loading}
@@ -201,9 +201,7 @@ export default function CreateTrip() {
           )}
         </Button>
       </div>
-    <div align="center">
-      <h4 className="font-bold text-lg text-[#FF0000]">Please Sign-in first before generate trip </h4>
-    </div>
+  
 
       {/* Right Panel */}
       <div className="lg:w-1/3 bg-white p-5 rounded-lg shadow-lg h-[180px] sticky top-10">
