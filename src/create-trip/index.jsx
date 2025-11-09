@@ -205,11 +205,13 @@ export default function CreateTrip() {
       {/* Right Panel */}
       <div className="lg:w-1/3 bg-white p-5 rounded-lg shadow-lg h-[180px] sticky top-10">
   <h3 className="font-bold text-lg text-[#003c66]">Your Trip Summary</h3>
+  <h4 className="font-bold text-lg text-[#FF0000]">Please Sign-in first before generate trip </h4>
   <ul className="mt-5 text-[#005b96]">
     <li>📍 Destination: {formData.location?.label || "Not selected"}</li>
     <li>🕒 Duration: {formData.noOfDays || "Not specified"} days</li>
     <li>💰 Budget: {formData.budget || "Not selected"}</li>
     <li>👥 Travelers: {formData.traveler || "Not specified"}</li>
+    
   </ul>
 </div>
     </div>
